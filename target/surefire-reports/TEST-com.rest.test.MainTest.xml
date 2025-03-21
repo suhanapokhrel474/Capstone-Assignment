@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.rest.test.MainTest" time="9.97" tests="19" errors="0" skipped="0" failures="5">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.rest.test.MainTest" time="3.513" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CA"/>
     <property name="sun.boot.library.path" value="C:\Users\suhan\Downloads\eclipse-java-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.3.v20240426-1530\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\suhan\AppData\Local\Temp\surefire8135796681215966378\surefirebooter-20250320164252554_3.jar C:\Users\suhan\AppData\Local\Temp\surefire8135796681215966378 2025-03-20T16-42-52_298-jvmRun1 surefire-20250320164252554_1tmp surefire_0-20250320164252554_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\suhan\AppData\Local\Temp\surefire2306152646528042984\surefirebooter-20250320223307347_3.jar C:\Users\suhan\AppData\Local\Temp\surefire2306152646528042984 2025-03-20T22-33-07_095-jvmRun1 surefire-20250320223307347_1tmp surefire_0-20250320223307347_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\rest\RestAssuredTest\target\test-classes;C:\rest\RestAssuredTest\target\classes;C:\Users\suhan\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\suhan\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\suhan\.m2\repository\io\rest-assured\rest-assured\5.3.1\rest-assured-5.3.1.jar;C:\Users\suhan\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\suhan\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\suhan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\suhan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\suhan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\suhan\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\suhan\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\suhan\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\suhan\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\suhan\.m2\repository\io\rest-assured\json-path\5.3.1\json-path-5.3.1.jar;C:\Users\suhan\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\suhan\.m2\repository\io\rest-assured\rest-assured-common\5.3.1\rest-assured-common-5.3.1.jar;C:\Users\suhan\.m2\repository\io\rest-assured\xml-path\5.3.1\xml-path-5.3.1.jar;C:\Users\suhan\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\suhan\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\suhan\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\suhan\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\suhan\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\suhan\.m2\repository\org\hamcrest\hamcrest-library\2.2\hamcrest-library-2.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\suhan\AppData\Local\Temp\surefire8135796681215966378\surefirebooter-20250320164252554_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\suhan\AppData\Local\Temp\surefire2306152646528042984\surefirebooter-20250320223307347_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.3+9-LTS"/>
@@ -60,203 +60,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testBookNotFound" classname="com.rest.test.MainTest" time="3.153">
-    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-]]></system-err>
-  </testcase>
-  <testcase name="testBookPriceGreaterThanZero" classname="com.rest.test.MainTest" time="1.397"/>
-  <testcase name="testCreateBook" classname="com.rest.test.MainTest" time="0.283"/>
-  <testcase name="testCreateBookNegative" classname="com.rest.test.MainTest" time="1.152">
-    <failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;403&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
-1 expectation failed.
-Expected status code <201> but was <403>.
-
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
-	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at com.rest.test.MainTest.testCreateBookNegative(MainTest.java:757)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-    <system-out><![CDATA[HTTP/1.1 403 Forbidden
-Date: Thu, 20 Mar 2025 20:42:59 GMT
-X-Content-Type-Options: nosniff
-Cache-Control: must-revalidate,no-cache,no-store
-Content-Type: text/html;charset=iso-8859-1
-Content-Length: 545
-Server: Jetty(10.0.20)
-
-<html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1"/>
-    <title>Error 403 No valid crumb was included in the request</title>
-  </head>
-  <body>
-    <h2>HTTP ERROR 403 No valid crumb was included in the request</h2>
-    <table>
-      <tr>
-        <th colspan="1" rowspan="1">URI:</th>
-        <td colspan="1" rowspan="1">/books</td>
-      </tr>
-      <tr>
-        <th colspan="1" rowspan="1">STATUS:</th>
-        <td colspan="1" rowspan="1">403</td>
-      </tr>
-      <tr>
-        <th colspan="1" rowspan="1">MESSAGE:</th>
-        <td colspan="1" rowspan="1">No valid crumb was included in the request</td>
-      </tr>
-      <tr>
-        <th colspan="1" rowspan="1">SERVLET:</th>
-        <td colspan="1" rowspan="1">Stapler</td>
-      </tr>
-    </table>
-    <hr/>
-    <a shape="rect" href="https://eclipse.org/jetty">Powered by Jetty:// 10.0.20</a>
-    <hr/>
-  </body>
-</html>
-]]></system-out>
-  </testcase>
-  <testcase name="testCreateBookWithInvalidPrice" classname="com.rest.test.MainTest" time="0.184"/>
-  <testcase name="testCreateBookWithMissingName" classname="com.rest.test.MainTest" time="0.187"/>
-  <testcase name="testDeleteBookNegative" classname="com.rest.test.MainTest" time="0.055">
-    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;403&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
-1 expectation failed.
-Expected status code <200> but was <403>.
-
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
-	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at com.rest.test.MainTest.testDeleteBookNegative(MainTest.java:820)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-    <system-out><![CDATA[HTTP/1.1 403 Forbidden
-Date: Thu, 20 Mar 2025 20:43:00 GMT
-X-Content-Type-Options: nosniff
-Set-Cookie: JSESSIONID.5c390f92=node01b19i4m7ae92zpy8lehjdtv0w24.node0; Path=/; HttpOnly
-Expires: Thu, 01 Jan 1970 00:00:00 GMT
-Content-Type: text/html;charset=utf-8
-X-Hudson: 1.395
-X-Jenkins: 2.452.3
-X-Jenkins-Session: 766e5ee1
-Transfer-Encoding: chunked
-Server: Jetty(10.0.20)
-
-<html>
-  <head>
-    <meta http-equiv="refresh" content="1;url=/login?from=%2Fbooks%2F1"/>
-    <script id="redirect" data-redirect-url="/login?from=%2Fbooks%2F1" src="/static/766e5ee1/scripts/redirect.js"/>
-  </head>
-  <body style="background-color:white; color:white;">
-Authentication required
-
-
-</body>
-</html>
-]]></system-out>
-  </testcase>
-  <testcase name="testGetAllBooks" classname="com.rest.test.MainTest" time="0.236"/>
-  <testcase name="testGetBookById" classname="com.rest.test.MainTest" time="0.216">
-    <system-out><![CDATA[HTTP/1.1 200 
-Set-Cookie: JSESSIONID=54A66E5012F5FB88E45DB2839D5D4C44; Path=/; HttpOnly
+  <testcase name="testBookNotFound" classname="com.rest.test.MainTest" time="1.024">
+    <system-out><![CDATA[HTTP/1.1 404 
+Set-Cookie: JSESSIONID=821BA5D9013ADF1630E96705CC183A1F; Path=/; HttpOnly
 X-Content-Type-Options: nosniff
 X-XSS-Protection: 1; mode=block
 Cache-Control: no-cache, no-store, max-age=0, must-revalidate
@@ -265,287 +71,102 @@ Expires: 0
 X-Frame-Options: DENY
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
-Date: Thu, 20 Mar 2025 20:43:00 GMT
+Date: Fri, 21 Mar 2025 02:33:11 GMT
 
 {
-    "id": 1,
+    "timestamp": "2025-03-21T02:33:11.377+0000",
+    "status": 404,
+    "error": "Not Found",
+    "message": "Book id not found : 9999",
+    "path": "/books/9999"
+}
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="testCreateBook" classname="com.rest.test.MainTest" time="0.64">
+    <system-out><![CDATA[HTTP/1.1 201 
+Set-Cookie: JSESSIONID=FC983A2B8C76D7E73ABBBE147F442EB4; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 21 Mar 2025 02:33:11 GMT
+
+{
+    "id": 13,
     "name": "A to the Bodhisattva Way of Life",
     "author": "Santideva",
-    "price": 20.00
+    "price": 15.41
 }
-Response Status Code: 200
-Response Body: {"id":1,"name":"A to the Bodhisattva Way of Life","author":"Santideva","price":20.00}
 ]]></system-out>
   </testcase>
-  <testcase name="testGetBookByIdNegative" classname="com.rest.test.MainTest" time="0.038">
-    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;403&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
-1 expectation failed.
-Expected status code <200> but was <403>.
-
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
-	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at com.rest.test.MainTest.testGetBookByIdNegative(MainTest.java:778)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-    <system-out><![CDATA[HTTP/1.1 403 Forbidden
-Date: Thu, 20 Mar 2025 20:43:01 GMT
+  <testcase name="testCreateBookWithInvalidPrice" classname="com.rest.test.MainTest" time="0.083">
+    <system-out><![CDATA[HTTP/1.1 400 
+Set-Cookie: JSESSIONID=2CEDFF9DBD8E96F0D92C2D2BDA6C91D6; Path=/; HttpOnly
 X-Content-Type-Options: nosniff
-Set-Cookie: JSESSIONID.5c390f92=node018fgivthvku75y2hqqp1yq9px25.node0; Path=/; HttpOnly
-Expires: Thu, 01 Jan 1970 00:00:00 GMT
-Content-Type: text/html;charset=utf-8
-X-Hudson: 1.395
-X-Jenkins: 2.452.3
-X-Jenkins-Session: 766e5ee1
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
-Server: Jetty(10.0.20)
+Date: Fri, 21 Mar 2025 02:33:11 GMT
+Connection: close
 
-<html>
-  <head>
-    <meta http-equiv="refresh" content="1;url=/login?from=%2Fbooks%2F1"/>
-    <script id="redirect" data-redirect-url="/login?from=%2Fbooks%2F1" src="/static/766e5ee1/scripts/redirect.js"/>
-  </head>
-  <body style="background-color:white; color:white;">
-Authentication required
-
-
-</body>
-</html>
+{
+    "timestamp": "2025-03-21T02:33:12.228+0000",
+    "status": 400,
+    "errors": [
+        "must be greater than or equal to 1.00"
+    ]
+}
 ]]></system-out>
   </testcase>
-  <testcase name="testGetBooksByAuthor" classname="com.rest.test.MainTest" time="0.325"/>
-  <testcase name="testGetBooksByPriceRange" classname="com.rest.test.MainTest" time="0.26"/>
-  <testcase name="testGetBooksCount" classname="com.rest.test.MainTest" time="0.23"/>
-  <testcase name="testGetBooksNegative" classname="com.rest.test.MainTest" time="0.047">
-    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;403&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
-1 expectation failed.
-Expected status code <200> but was <403>.
-
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
-	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at com.rest.test.MainTest.testGetBooksNegative(MainTest.java:841)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-    <system-out><![CDATA[HTTP/1.1 403 Forbidden
-Date: Thu, 20 Mar 2025 20:43:02 GMT
+  <testcase name="testCreateBookWithMissingName" classname="com.rest.test.MainTest" time="0.085">
+    <system-out><![CDATA[HTTP/1.1 400 
+Set-Cookie: JSESSIONID=CE3B29FA8DCDCC20D3F580F2C687AA2D; Path=/; HttpOnly
 X-Content-Type-Options: nosniff
-Set-Cookie: JSESSIONID.5c390f92=node0sc96a3sjakq61omltyo53s2l226.node0; Path=/; HttpOnly
-Expires: Thu, 01 Jan 1970 00:00:00 GMT
-Content-Type: text/html;charset=utf-8
-X-Hudson: 1.395
-X-Jenkins: 2.452.3
-X-Jenkins-Session: 766e5ee1
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
-Server: Jetty(10.0.20)
+Date: Fri, 21 Mar 2025 02:33:12 GMT
+Connection: close
 
-<html>
-  <head>
-    <meta http-equiv="refresh" content="1;url=/login?from=%2Fbooks"/>
-    <script id="redirect" data-redirect-url="/login?from=%2Fbooks" src="/static/766e5ee1/scripts/redirect.js"/>
-  </head>
-  <body style="background-color:white; color:white;">
-Authentication required
-
-
-</body>
-</html>
+{
+    "timestamp": "2025-03-21T02:33:12.312+0000",
+    "status": 400,
+    "errors": [
+        "Please provide a name",
+        "Author is not allowed."
+    ]
+}
 ]]></system-out>
   </testcase>
-  <testcase name="testGetBooksSortedByName" classname="com.rest.test.MainTest" time="0.221"/>
-  <testcase name="testGetBooksWithPagination" classname="com.rest.test.MainTest" time="0.213"/>
-  <testcase name="testUpdateBook" classname="com.rest.test.MainTest" time="0.216"/>
-  <testcase name="testUpdateBookNegative" classname="com.rest.test.MainTest" time="0.032">
-    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;403&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
-1 expectation failed.
-Expected status code <200> but was <403>.
-
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
-	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at com.rest.test.MainTest.testUpdateBookNegative(MainTest.java:801)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:739)
-	at org.testng.TestRunner.run(TestRunner.java:614)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-    <system-out><![CDATA[HTTP/1.1 403 Forbidden
-Date: Thu, 20 Mar 2025 20:43:02 GMT
+  <testcase name="testGetAllBooks" classname="com.rest.test.MainTest" time="0.107">
+    <system-out><![CDATA[HTTP/1.1 200 
+Set-Cookie: JSESSIONID=3A686FF606BD1A69B9ACE5AE35C9260D; Path=/; HttpOnly
 X-Content-Type-Options: nosniff
-Set-Cookie: JSESSIONID.5c390f92=node012equmsx77ak5eswdrhv5n0cb27.node0; Path=/; HttpOnly
-Expires: Thu, 01 Jan 1970 00:00:00 GMT
-Content-Type: text/html;charset=utf-8
-X-Hudson: 1.395
-X-Jenkins: 2.452.3
-X-Jenkins-Session: 766e5ee1
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
-Server: Jetty(10.0.20)
+Date: Fri, 21 Mar 2025 02:33:12 GMT
 
-<html>
-  <head>
-    <meta http-equiv="refresh" content="1;url=/login?from=%2Fbooks%2F1"/>
-    <script id="redirect" data-redirect-url="/login?from=%2Fbooks%2F1" src="/static/766e5ee1/scripts/redirect.js"/>
-  </head>
-  <body style="background-color:white; color:white;">
-Authentication required
-
-
-</body>
-</html>
-]]></system-out>
-  </testcase>
-  <testcase name="verifyStatusCode" classname="com.rest.test.MainTest" time="0.316">
-    <system-out><![CDATA[Request method:	GET
-Request URI:	http://localhost:8082/books
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Authorization=Basic dXNlcjpwYXNzd29yZA==
-				Accept=*/*
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-Response Status Code: 200
 [
     {
         "id": 1,
@@ -594,9 +215,69 @@ Response Status Code: 200
         "name": "A to the Bodhisattva Way of Life",
         "author": "Santideva",
         "price": 15.41
+    },
+    {
+        "id": 10,
+        "name": "A to the Bodhisattva Way of Life",
+        "author": "Santideva",
+        "price": 15.41
+    },
+    {
+        "id": 11,
+        "name": "A to the Bodhisattva Way of Life",
+        "author": "Santideva",
+        "price": 15.41
+    },
+    {
+        "id": 12,
+        "name": "A to the Bodhisattva Way of Life",
+        "author": "Santideva",
+        "price": 15.41
+    },
+    {
+        "id": 13,
+        "name": "A to the Bodhisattva Way of Life",
+        "author": "Santideva",
+        "price": 15.41
     }
 ]
-Response Body: [
+]]></system-out>
+  </testcase>
+  <testcase name="testGetBookById" classname="com.rest.test.MainTest" time="0.082">
+    <system-out><![CDATA[HTTP/1.1 200 
+Set-Cookie: JSESSIONID=E0DC6D0D30B3C009FDB9BFAB1AEF03F2; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 21 Mar 2025 02:33:12 GMT
+
+{
+    "id": 1,
+    "name": "A to the Bodhisattva Way of Life",
+    "author": "Santideva",
+    "price": 20.00
+}
+]]></system-out>
+  </testcase>
+  <testcase name="testGetBooksByPriceRange" classname="com.rest.test.MainTest" time="0.14">
+    <system-out><![CDATA[HTTP/1.1 200 
+Set-Cookie: JSESSIONID=381B21A952D0120F97A1E92583DE1170; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 21 Mar 2025 02:33:12 GMT
+
+[
     {
         "id": 1,
         "name": "A to the Bodhisattva Way of Life",
@@ -644,18 +325,231 @@ Response Body: [
         "name": "A to the Bodhisattva Way of Life",
         "author": "Santideva",
         "price": 15.41
+    },
+    {
+        "id": 10,
+        "name": "A to the Bodhisattva Way of Life",
+        "author": "Santideva",
+        "price": 15.41
+    },
+    {
+        "id": 11,
+        "name": "A to the Bodhisattva Way of Life",
+        "author": "Santideva",
+        "price": 15.41
+    },
+    {
+        "id": 12,
+        "name": "A to the Bodhisattva Way of Life",
+        "author": "Santideva",
+        "price": 15.41
+    },
+    {
+        "id": 13,
+        "name": "A to the Bodhisattva Way of Life",
+        "author": "Santideva",
+        "price": 15.41
     }
 ]
-Response Headers: Set-Cookie=JSESSIONID=9483B0134E6C398DE43A19CA0DB580B1; Path=/; HttpOnly
-X-Content-Type-Options=nosniff
-X-XSS-Protection=1; mode=block
-Cache-Control=no-cache, no-store, max-age=0, must-revalidate
-Pragma=no-cache
-Expires=0
-X-Frame-Options=DENY
-Content-Type=application/json;charset=UTF-8
-Transfer-Encoding=chunked
-Date=Thu, 20 Mar 2025 20:43:02 GMT
+]]></system-out>
+  </testcase>
+  <testcase name="testGetBooksSortedByName" classname="com.rest.test.MainTest" time="0.102">
+    <system-out><![CDATA[HTTP/1.1 200 
+Set-Cookie: JSESSIONID=A2C1FCB2BD1C3378A30F0A3A0CC1774B; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 21 Mar 2025 02:33:12 GMT
+
+[
+    {
+        "id": 1,
+        "name": "A to the Bodhisattva Way of Life",
+        "author": "Santideva",
+        "price": 20.00
+    },
+    {
+        "id": 3,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "price": 47.99
+    },
+    {
+        "id": 4,
+        "name": "A to the Bodhisattva Way of Life",
+        "author": "Santideva",
+        "price": 15.41
+    },
+    {
+        "id": 5,
+        "name": "A to the Bodhisattva Way of Life",
+        "author": "Santideva",
+        "price": 15.41
+    },
+    {
+        "id": 6,
+        "name": "A to the Bodhisattva Way of Life",
+        "author": "Santideva",
+        "price": 15.41
+    },
+    {
+        "id": 7,
+        "name": "A to the Bodhisattva Way of Life",
+        "author": "Santideva",
+        "price": 15.41
+    },
+    {
+        "id": 8,
+        "name": "A to the Bodhisattva Way of Life",
+        "author": "Santideva",
+        "price": 15.41
+    },
+    {
+        "id": 9,
+        "name": "A to the Bodhisattva Way of Life",
+        "author": "Santideva",
+        "price": 15.41
+    },
+    {
+        "id": 10,
+        "name": "A to the Bodhisattva Way of Life",
+        "author": "Santideva",
+        "price": 15.41
+    },
+    {
+        "id": 11,
+        "name": "A to the Bodhisattva Way of Life",
+        "author": "Santideva",
+        "price": 15.41
+    },
+    {
+        "id": 12,
+        "name": "A to the Bodhisattva Way of Life",
+        "author": "Santideva",
+        "price": 15.41
+    },
+    {
+        "id": 13,
+        "name": "A to the Bodhisattva Way of Life",
+        "author": "Santideva",
+        "price": 15.41
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateBook" classname="com.rest.test.MainTest" time="0.092">
+    <system-out><![CDATA[HTTP/1.1 200 
+Set-Cookie: JSESSIONID=EE63C3BB9406FBB088BB85B0AD8EBF84; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 21 Mar 2025 02:33:12 GMT
+
+{
+    "id": 1,
+    "name": "A to the Bodhisattva Way of Life",
+    "author": "Santideva",
+    "price": 20.00
+}
+]]></system-out>
+  </testcase>
+  <testcase name="verifyStatusCode" classname="com.rest.test.MainTest" time="0.083">
+    <system-out><![CDATA[HTTP/1.1 200 
+Set-Cookie: JSESSIONID=45D780091A9A8B88C506737F7734B3E3; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Fri, 21 Mar 2025 02:33:12 GMT
+
+[
+    {
+        "id": 1,
+        "name": "A to the Bodhisattva Way of Life",
+        "author": "Santideva",
+        "price": 20.00
+    },
+    {
+        "id": 3,
+        "name": "Refactoring: Improving the Design of Existing Code",
+        "author": "Martin Fowler",
+        "price": 47.99
+    },
+    {
+        "id": 4,
+        "name": "A to the Bodhisattva Way of Life",
+        "author": "Santideva",
+        "price": 15.41
+    },
+    {
+        "id": 5,
+        "name": "A to the Bodhisattva Way of Life",
+        "author": "Santideva",
+        "price": 15.41
+    },
+    {
+        "id": 6,
+        "name": "A to the Bodhisattva Way of Life",
+        "author": "Santideva",
+        "price": 15.41
+    },
+    {
+        "id": 7,
+        "name": "A to the Bodhisattva Way of Life",
+        "author": "Santideva",
+        "price": 15.41
+    },
+    {
+        "id": 8,
+        "name": "A to the Bodhisattva Way of Life",
+        "author": "Santideva",
+        "price": 15.41
+    },
+    {
+        "id": 9,
+        "name": "A to the Bodhisattva Way of Life",
+        "author": "Santideva",
+        "price": 15.41
+    },
+    {
+        "id": 10,
+        "name": "A to the Bodhisattva Way of Life",
+        "author": "Santideva",
+        "price": 15.41
+    },
+    {
+        "id": 11,
+        "name": "A to the Bodhisattva Way of Life",
+        "author": "Santideva",
+        "price": 15.41
+    },
+    {
+        "id": 12,
+        "name": "A to the Bodhisattva Way of Life",
+        "author": "Santideva",
+        "price": 15.41
+    },
+    {
+        "id": 13,
+        "name": "A to the Bodhisattva Way of Life",
+        "author": "Santideva",
+        "price": 15.41
+    }
+]
 ]]></system-out>
   </testcase>
 </testsuite>
